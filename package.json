@@ -1,0 +1,26 @@
+{
+  "name": "awesome-personal-blogs-scraper",
+  "version": "1.0.0",
+  "description": "get a list from the awesome personal blogs repo",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "esm": "^3.2.18",
+    "express": "^4.16.4",
+    "lowdb": "^1.0.0",
+    "node-cron": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "dev": "nodemon -r esm index.js --ignore db.json"
+  },
+  "author": "",
+  "license": "ISC"
+}
